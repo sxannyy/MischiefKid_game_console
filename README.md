@@ -52,3 +52,6 @@
 
 **MindMap проекта**:
 ![image](https://github.com/sxannyy/MischiefKid_game_console/blob/main/mind_map.png)
+
+**Диаграмма последовательностей**:
+![image](https://github.com/sxannyy/MischiefKid_game_console/blob/main/diagram.png)
