@@ -62,3 +62,21 @@
 
 **Схема использования игровой консоли**:
 ![image](https://github.com/sxannyy/MischiefKid_game_console/blob/main/scheme.png)
+
+## ⚙️ Настройка и установка проекта
+При необходимости сделать ```chmod +x ./scripts/<script_name>.sh``` для всех скриптов!
+
+### Для установки всех библиотек python и linux, запускаем в папке проекта:
+```
+./scripts/configure.sh
+```
+
+### Для поднятия сервисов баз для локальной разработки нужно запустить команду:
+```
+sudo make up
+```
+
+### Для запуска FastAPI и Telegram-бота:
+```
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```

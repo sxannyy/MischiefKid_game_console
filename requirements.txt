@@ -1,0 +1,16 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+python-telegram-bot==13.15
+passlib[bcrypt]>=1.7
+
+supabase
+pydantic-settings>=2.1
+
+requests>=2.31
+python-dotenv>=1.0
+
+envparse>=0.2
