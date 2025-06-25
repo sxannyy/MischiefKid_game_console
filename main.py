@@ -24,10 +24,7 @@ dispatcher = updater.dispatcher
 def start(update: Update, context: CallbackContext):
     update.message.reply_text(
         "Привет! Используй /register <логин> <имя> <фамилия> для регистрации.\n"
-        "/token <логин> — получить токен\n"
-        "/getsave — получить ссылку на сохранение\n"
-        "/save — загрузить файл сохранения\n"
-        "/help — помощь"
+        "/token <логин> — получить токен"
     )
 
 # /register
